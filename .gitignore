@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.homework_Ignat
+/idea
 
 # testing
 /coverage
