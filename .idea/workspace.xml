@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="Last commit">
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.test">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -108,7 +101,7 @@
       <workItem from="1681005783740" duration="5997000" />
       <workItem from="1681018615695" duration="29000" />
       <workItem from="1681018651731" duration="10060000" />
-      <workItem from="1681043154364" duration="4708000" />
+      <workItem from="1681043154364" duration="6220000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1680408868120</created>
@@ -124,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680844858138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Last commit">
+      <created>1681048162804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681048162804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
