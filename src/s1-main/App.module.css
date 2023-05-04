@@ -1,7 +1,7 @@
 .App {
     --header_height: 60px;
     box-sizing: border-box;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
