@@ -13,7 +13,7 @@ type AffairsPropsType = {
 }
 
 function Affairs(props: AffairsPropsType) {
-    console.log('props', props)
+
     const setAll = () => {
         props.setFilter('all')
     }

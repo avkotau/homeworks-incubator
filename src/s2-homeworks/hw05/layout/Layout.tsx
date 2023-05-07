@@ -10,7 +10,7 @@ export const Layout: FC<PropsType> = ({ children }) => {
     const [open, setOpen] = useState(false)
     const handleClose = () => setOpen(false)
     const handleOpen = () => setOpen(true)
-
+    console.log(children)
     useEffect(() => {
         open && (document.body.style.overflow = 'hidden')
         !open && (document.body.style.overflow = 'unset')
