@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw02/affairs/Affairs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +110,7 @@
       <workItem from="1681475363436" duration="2874000" />
       <workItem from="1681497575556" duration="202000" />
       <workItem from="1681529866437" duration="2277000" />
-      <workItem from="1683098531909" duration="21129000" />
+      <workItem from="1683098531909" duration="22068000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1680408868120</created>
@@ -195,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683388914800</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hw5 style for pages">
+      <created>1683473827818</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683473827818</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +219,7 @@
     <MESSAGE value="hw3" />
     <MESSAGE value="hw4 not finished" />
     <MESSAGE value="hw5 not finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5 not finished" />
+    <MESSAGE value="hw5 style for pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5 style for pages" />
   </component>
 </project>

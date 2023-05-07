@@ -1,12 +1,11 @@
 .sidebar {
-
+    width: 317px;
+    height: 100%;
 }
 
 .sidebar.open {
     position: absolute;
     z-index: 2;
-    max-width: 317px;
-    height: 100%;
     top: 0;
     background: #FFFFFF;
 }
@@ -23,6 +22,7 @@
 
 .nav {
     display: grid;
+    padding: 20px 0 0 70px;
 }
 
 .nav a {
@@ -32,6 +32,7 @@
     font-size: 22px;
     color: #000000;
     text-decoration: none;
+    padding-bottom: 45px;
 }
 
 .nav a:hover {
@@ -43,8 +44,11 @@
 }
 
 .close {
+    position: sticky;
+    left: 100%;
     border: none;
     background: #FFFFFF;
+    padding-top: 16px;
 }
 
 .close img {
