@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/it-incubator-homeworks/static/css/main.905eaf41.css",
-    "main.js": "/it-incubator-homeworks/static/js/main.1af6a749.js",
+    "main.css": "/it-incubator-homeworks/static/css/main.20689917.css",
+    "main.js": "/it-incubator-homeworks/static/js/main.6ae47818.js",
     "static/js/787.66cb4309.chunk.js": "/it-incubator-homeworks/static/js/787.66cb4309.chunk.js",
-    "static/media/checked.svg": "/it-incubator-homeworks/static/media/checked.b75ca55e8759862b4083.svg",
+    "static/media/avatar.png": "/it-incubator-homeworks/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/it-incubator-homeworks/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
+    "static/media/closeOutline.svg": "/it-incubator-homeworks/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
+    "static/media/checked.svg": "/it-incubator-homeworks/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/it-incubator-homeworks/index.html",
-    "main.905eaf41.css.map": "/it-incubator-homeworks/static/css/main.905eaf41.css.map",
-    "main.1af6a749.js.map": "/it-incubator-homeworks/static/js/main.1af6a749.js.map",
+    "static/media/burger.svg": "/it-incubator-homeworks/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
+    "main.20689917.css.map": "/it-incubator-homeworks/static/css/main.20689917.css.map",
+    "main.6ae47818.js.map": "/it-incubator-homeworks/static/js/main.6ae47818.js.map",
     "787.66cb4309.chunk.js.map": "/it-incubator-homeworks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.905eaf41.css",
-    "static/js/main.1af6a749.js"
+    "static/css/main.20689917.css",
+    "static/js/main.6ae47818.js"
   ]
 }
