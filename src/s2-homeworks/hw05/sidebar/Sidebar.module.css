@@ -1,7 +1,6 @@
 .sidebar {
-    display: grid;
     width: 317px;
-    height: 720px;
+    height: 100%;
     position: absolute;
     left: -100%;
 }
