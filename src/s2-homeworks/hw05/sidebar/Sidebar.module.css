@@ -42,8 +42,13 @@
     color: #58ACFF;
 }
 
-.nav a.active {
+.nav a:active {
     color: #3D6B99;
+}
+
+.nav a.active {
+    text-decoration-line: underline;
+    color: #0059B2;
 }
 
 .close {
@@ -58,5 +63,5 @@
 }
 
 .close img {
-
+    text-decoration: none;
 }
