@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/HW5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/HW5.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TypeScript/exam/counter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,7 +113,9 @@
       <workItem from="1681475363436" duration="2874000" />
       <workItem from="1681497575556" duration="202000" />
       <workItem from="1681529866437" duration="2277000" />
-      <workItem from="1683098531909" duration="34330000" />
+      <workItem from="1683098531909" duration="34617000" />
+      <workItem from="1684076651966" duration="12000" />
+      <workItem from="1684395418025" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1680408868120</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683642107897</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw5 Routes Navigate for to open the main page">
+      <created>1683730432582</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683730432582</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +260,7 @@
     <MESSAGE value="hw4 not finished" />
     <MESSAGE value="hw5 not finished" />
     <MESSAGE value="hw5 style for pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5 style for pages" />
+    <MESSAGE value="hw5 Routes Navigate for to open the main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5 Routes Navigate for to open the main page" />
   </component>
 </project>
