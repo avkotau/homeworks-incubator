@@ -11,6 +11,12 @@ import s from './HW7.module.css'
 * 4 - сделать стили в соответствии с дизайном
 * */
 
+
+export type ArrDataType = {
+    id: number
+    value: string
+}
+
 const arr = [
     { id: 1, value: 'Pre-junior' },
     { id: 2, value: 'Junior' },
@@ -18,8 +24,8 @@ const arr = [
 ] // value может быть изменено
 
 const HW7 = () => {
-    const [value, onChangeOption] = useState(1) // селект и радио должны работать синхронно
-    console.log('value', value)
+    const [value, onChangeOption] = useState<number>(1) // селект и радио должны работать синхронно
+
     return (
         <div id={'hw7'}>
             <div className={s2.hwTitle}>Homework #7</div>
