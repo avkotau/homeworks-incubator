@@ -67,7 +67,7 @@ button {
 }
 /*Click tab*/
 button:focus {
-    background: red;
+    background: #0080FF;
 }
 /*Click mouse*/
 button:active {
