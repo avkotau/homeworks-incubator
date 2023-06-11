@@ -48,9 +48,9 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                 id={id + '-pagination-select'}
                 value={itemsCountForPage}
                 options={[
-                    {id: 4, value: 4},
-                    {id: 7, value: 7},
-                    {id: 10, value: 10},
+                    {id: 4, value:'4'}, // changed 4 to '4' support it incubator 01.06.2023
+                    {id: 7, value: '7'},
+                    {id: 10, value: '10'},
                 ]}
                 onChange={onChangeSelect}
             />
