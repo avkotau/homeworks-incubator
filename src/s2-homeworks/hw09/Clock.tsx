@@ -40,7 +40,7 @@ function Clock() {
 
     //'date->date' || <br/>  день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
     const stringDate =
-        `${date.getDate().toString().padStart(2, '0')}.${date.getMonth().toString().padStart(2, '0')}.${date.getFullYear().toString()}`;
+        `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth()+1).toString().padStart(2, '0')}.${date.getFullYear().toString()}`;
 
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
     const stringDay = date.toLocaleString('en-US', {weekday: 'long' as const}) //'date->day' || <br/>  пишут студенты
