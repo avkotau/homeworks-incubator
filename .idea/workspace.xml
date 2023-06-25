@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="">
+    <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="feat: create loader with use redux">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,25 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\Projects\Git\it-incubator-homeworks\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/Git/it-incubator-todolist-ts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\Projects\\Git\\it-incubator-homeworks\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Jest.check age 18">
     <configuration name="check age 18" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -55,7 +55,6 @@
     </configuration>
     <configuration name="sort name down" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -68,7 +67,6 @@
     </configuration>
     <configuration name="sort name up" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -163,7 +161,9 @@
       <workItem from="1685621509030" duration="2908000" />
       <workItem from="1686497122595" duration="10147000" />
       <workItem from="1686582203223" duration="1220000" />
-      <workItem from="1687067849892" duration="15075000" />
+      <workItem from="1687067849892" duration="17470000" />
+      <workItem from="1687450593094" duration="101000" />
+      <workItem from="1687661595876" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1680408868120</created>
@@ -347,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687083221114</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix: change month (date.getMonth()+1) increase by one">
+      <created>1687083797493</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687083797493</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +387,8 @@
     <MESSAGE value="fix: delete in homeWorkReducer .sort((a,b) =&gt; a.age - b.age)" />
     <MESSAGE value="fix: add in homeWorkReducer .sort((a, b) =&gt; b.name.localeCompare(a.name))" />
     <MESSAGE value="feat: add new Date(), buttons start/stop time, add show/hidden date now" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add new Date(), buttons start/stop time, add show/hidden date now" />
+    <MESSAGE value="fix: change month (date.getMonth()+1) increase by one" />
+    <MESSAGE value="feat: create loader with use redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create loader with use redux" />
   </component>
 </project>
