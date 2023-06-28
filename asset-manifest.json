@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/it-incubator-homeworks/static/css/main.78ddc5e8.css",
+    "main.css": "/it-incubator-homeworks/static/css/main.4553da9b.css",
     "main.js": "/it-incubator-homeworks/static/js/main.e0d6774f.js",
     "static/js/787.66cb4309.chunk.js": "/it-incubator-homeworks/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/it-incubator-homeworks/static/media/avatar.d947cb9d0d13765666b6.png",
@@ -10,12 +10,12 @@
     "static/media/checked.svg": "/it-incubator-homeworks/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/it-incubator-homeworks/index.html",
     "static/media/burger.svg": "/it-incubator-homeworks/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.78ddc5e8.css.map": "/it-incubator-homeworks/static/css/main.78ddc5e8.css.map",
+    "main.4553da9b.css.map": "/it-incubator-homeworks/static/css/main.4553da9b.css.map",
     "main.e0d6774f.js.map": "/it-incubator-homeworks/static/js/main.e0d6774f.js.map",
     "787.66cb4309.chunk.js.map": "/it-incubator-homeworks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78ddc5e8.css",
+    "static/css/main.4553da9b.css",
     "static/js/main.e0d6774f.js"
   ]
 }
