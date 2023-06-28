@@ -13,7 +13,6 @@ const SuperRange: React.FC<SliderProps> = (props) => {
                     height: '18px',
                     border: '1px solid #00CC22',
                     backgroundColor: '#FFFFFF',
-                    // backgroundColor: 'transparent',
                     '&::before': {
                         width: '6px',
                         height: '6px',

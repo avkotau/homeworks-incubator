@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<<<< Temporary merge branch 1
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
+=========
+>>>>>>>>> Temporary merge branch 2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
