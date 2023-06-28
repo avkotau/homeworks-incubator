@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="feat: create loader with use redux">
+    <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_Ignat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,7 @@
       <workItem from="1687450593094" duration="101000" />
       <workItem from="1687661595876" duration="7380000" />
       <workItem from="1687851325629" duration="10190000" />
-      <workItem from="1687933313608" duration="4002000" />
+      <workItem from="1687933313608" duration="4937000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1680408868120</created>
@@ -365,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687667449150</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: create Slider, change style and tied two sliders on one side to each other.">
+      <option name="closed" value="true" />
+      <created>1687937702973</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687937702973</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +404,7 @@
     <MESSAGE value="feat: add new Date(), buttons start/stop time, add show/hidden date now" />
     <MESSAGE value="fix: change month (date.getMonth()+1) increase by one" />
     <MESSAGE value="feat: create loader with use redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create loader with use redux" />
+    <MESSAGE value="feat: create Slider, change style and tied two sliders on one side to each other." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create Slider, change style and tied two sliders on one side to each other." />
   </component>
 </project>
