@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="074d9f5f-75d0-4707-acfc-71e69c962cc0" name="Changes" comment="feat: create loader with use redux">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_Ignat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/Git/it-incubator-todolist-ts",
+    "last_opened_file_path": "D:/Projects/TypeScript/it-kamasutra-detail",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,7 +164,9 @@
       <workItem from="1686582203223" duration="1220000" />
       <workItem from="1687067849892" duration="17470000" />
       <workItem from="1687450593094" duration="101000" />
-      <workItem from="1687661595876" duration="5771000" />
+      <workItem from="1687661595876" duration="7380000" />
+      <workItem from="1687851325629" duration="10190000" />
+      <workItem from="1687933313608" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1680408868120</created>
@@ -354,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687083797493</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: create loader with use redux">
+      <option name="closed" value="true" />
+      <created>1687667449150</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687667449150</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
