@@ -19,9 +19,6 @@ function HW11() {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
 
         if (Array.isArray(value)) {
-            // console.log('event',event)
-            console.log('value[0]',`${value[0]}`)
-            console.log('value', `${value}`)
             setValue1(value[0])
             setValue2(value[1])
             return
