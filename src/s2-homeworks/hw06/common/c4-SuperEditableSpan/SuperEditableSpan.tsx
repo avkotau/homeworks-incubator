@@ -59,7 +59,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     }
 
     const spanClassName = s.span
-        + (className ? ' ' + className : '')
+        + (className ? className : '')
 
     return (
         <>
@@ -72,7 +72,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
                 />
             ) : (
-                <div className={s.spanBlock}>
+                <div>
                     <img
                         src={editIcon}
                         className={s.pen}

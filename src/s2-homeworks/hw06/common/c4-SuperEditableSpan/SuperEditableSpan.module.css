@@ -1,11 +1,9 @@
-.spanBlock {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 .span {
+    display: inline-block;
+    padding-top: 10px;
+    height: 35px;
     color: #0080FF;
+    cursor: pointer;
 }
 
 .input {
