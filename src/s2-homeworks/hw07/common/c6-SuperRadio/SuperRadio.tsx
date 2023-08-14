@@ -2,7 +2,7 @@ import React, {
     ChangeEvent,
     InputHTMLAttributes,
     DetailedHTMLProps,
-    HTMLAttributes, ReactNode,
+    HTMLAttributes,
 } from 'react'
 import s from './SuperRadio.module.css'
 import { ArrDataType } from "../../HW7";
@@ -50,7 +50,7 @@ const SuperRadio: React.FC<SuperRadioPropsType> = ({
                     type={'radio'}
                     // name, checked, value делают студенты
                     value={o.id}
-                    name={'radio'}
+                    name={name}
                     checked={o.id === value}
                     onChange={onChangeCallback}
                     {...restProps}
