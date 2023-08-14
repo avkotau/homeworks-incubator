@@ -35,12 +35,16 @@ function Clock() {
     }
 
     //'date->time' || <br/>  часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-    const stringTime = `
-    ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}:${date.getSeconds().toString().padStart(2, '0')}`;
+    const stringTime =
+        `${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}:${date.getSeconds().toString().padStart(2, '0')}`;
+        //one more way use time
+        // date?.toLocaleTimeString()
 
     //'date->date' || <br/>  день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
     const stringDate =
-        `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth()+1).toString().padStart(2, '0')}.${date.getFullYear().toString()}`;
+        `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear().toString()}`;
+        //one more way use date
+        // date?.toLocaleDateString()
 
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
     const stringDay = date.toLocaleString('en-US', {weekday: 'long' as const}) //'date->day' || <br/>  пишут студенты
@@ -68,6 +72,7 @@ function Clock() {
                             <span id={'hw9-date'}>{stringDate}</span>
                         </>
                     ) : (
+                        //so that the buttons do not jump and the text when show is false use <br>
                         <>
                             <br/>
                         </>
