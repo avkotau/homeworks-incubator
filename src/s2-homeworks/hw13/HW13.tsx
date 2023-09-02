@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import s2 from '../../s1-main/App.module.css'
 import s from './HW13.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
@@ -24,7 +24,7 @@ const HW13 = () => {
         const url =
             x === null
                 ? 'https://xxxxxx.ccc' // имитация запроса на не корректный адрес
-                : 'https://incubator-personal-page-back.herokuapp.com/api/3.0/homework/test'
+                : 'https://samurai.it-incubator.io/api/3.0/homework/test'
 
         setCode('')
         setImage('')
@@ -34,17 +34,31 @@ const HW13 = () => {
         axios
             .post(url, {success: x})
             .then((res) => {
-                setCode('Код 200!')
                 setImage(success200)
-                // дописать
-
+                setCode('Код 200!')
+                setText(res.data.errorText)
+                setInfo(res.data.info)
             })
             .catch((e) => {
-                // дописать
-
+                if (e.response.status === 400) {
+                    setImage(error400)
+                    setInfo(e.response.data.info)
+                    setCode('Ошибка 400!')
+                    setText(e.response.data.errorText)
+                } else if (e.response.status === 500) {
+                    setImage(error500)
+                    setInfo(e.response.data.info)
+                    setCode('Ошибка 500!')
+                    setText(e.response.data.errorText)
+                } else {
+                    setImage(errorUnknown)
+                    setCode('Error!')
+                    setInfo(e.message)
+                    setText(e.name)
+                }
             })
     }
-
+    console.log(!!code)
     return (
         <div id={'hw13'}>
             <div className={s2.hwTitle}>Homework #13</div>
@@ -56,7 +70,7 @@ const HW13 = () => {
                         onClick={send(true)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={!code}
                     >
                         Send true
                     </SuperButton>
@@ -65,7 +79,7 @@ const HW13 = () => {
                         onClick={send(false)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={!code}
                     >
                         Send false
                     </SuperButton>
@@ -74,7 +88,7 @@ const HW13 = () => {
                         onClick={send(undefined)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={!code}
                     >
                         Send undefined
                     </SuperButton>
@@ -83,7 +97,7 @@ const HW13 = () => {
                         onClick={send(null)} // имитация запроса на не корректный адрес
                         xType={'secondary'}
                         // дописать
-
+                        disabled={!code}
                     >
                         Send null
                     </SuperButton>
