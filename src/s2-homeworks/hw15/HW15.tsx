@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import s2 from '../../s1-main/App.module.css'
 import s from './HW15.module.css'
 import axios from 'axios'
 import SuperPagination from './common/c9-SuperPagination/SuperPagination'
-import {useSearchParams} from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import SuperSort from './common/c10-SuperSort/SuperSort'
 
 /*
@@ -28,6 +28,7 @@ type ParamsType = {
 }
 
 const getTechs = (params: ParamsType) => {
+    // debugger
     return axios
         .get<{ techs: TechType[], totalCount: number }>(
             'https://samurai.it-incubator.io/api/3.0/homework/test3',
@@ -55,36 +56,30 @@ const HW15 = () => {
 
                 // сохранить пришедшие данные
                 if (res) {
-
                     setTechs(res.data.techs)
                     setTotalCount(res.data.totalCount)
+                    setLoading(false)
                 }
-                //
+
             })
     }
 
     const onChangePagination = (newPage: number, newCount: number) => {
         // делает студент
+        setPage(newPage)
+        setCount(newCount)
 
-        // setPage(
-        // setCount(
-
-        // sendQuery(
-        // setSearchParams(
-
-        //
+        sendQuery({sort, page: newPage, count: newCount})
+        setSearchParams({page: newPage.toString(), count: newCount.toString()})
     }
 
     const onChangeSort = (newSort: string) => {
         // делает студент
+        setSort(newSort)
+        setPage(1) // при сортировке сбрасывать на 1 страницу
 
-        // setSort(
-        // setPage(1) // при сортировке сбрасывать на 1 страницу
-
-        // sendQuery(
-        // setSearchParams(
-
-        //
+        sendQuery({sort: newSort, page: 1, count});
+        setSearchParams({sort: newSort, page: '1', count: count.toString()});
     }
 
     useEffect(() => {
