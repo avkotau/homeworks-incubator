@@ -19,7 +19,6 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
 
     return (
         <>
-            {/*затемнение справа от открытого меню*/}
             {open && <div className={s.background} onClick={handleClose}/>}
 
             <aside className={sidebarClass}>
@@ -36,7 +35,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
                         onClick={handleClose}
-                        className={getClassActive} // делает студент
+                        className={getClassActive}
                     >
                         Pre-junior
                     </NavLink>
@@ -44,7 +43,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
                         onClick={handleClose}
-                        className={getClassActive} // делает студент
+                        className={getClassActive}
                     >
                         Junior
                     </NavLink>
@@ -52,7 +51,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-plus-link'}
                         to={PATH.JUNIOR_PLUS}
                         onClick={handleClose}
-                        className={getClassActive} // делает студент
+                        className={getClassActive}
                     >
                         Junior Plus
                     </NavLink>

@@ -8,13 +8,6 @@
     gap: 12px;
 
 }
-/*.inputAndButtonContainer input {*/
-
-/*}*/
-
-/*.inputAndButtonContainer button {*/
-
-/*}*/
 
 .error {
     font-family: 'Montserrat', serif;
@@ -24,7 +17,6 @@
     line-height: 17px;
     color: #CC0000;
 
-    /*position: absolute;*/
     width: 165px;
     height: 17px;
     left: 70px;
@@ -39,14 +31,14 @@
 }
 
 .inputClass:focus {
-    outline: none; /* отключаем стандартную рамку при фокусировке */
+    outline: none;
     border: 2px solid blue;
 }
 
 
 .errorInput {
     height: 100%;
-    border: 1px solid  #CC0000;
+    border: 1px solid #CC0000;
     border-radius: 5px;
     padding: 8px 12px;
     outline: none;
@@ -63,15 +55,15 @@ button {
     padding: 5px 24px;
     background: #0066CC;
     border-radius: 3px;
-
+    border: none;
 }
-/*Click tab*/
+
 button:focus {
     background: #0080FF;
 }
-/*Click mouse*/
+
 button:active {
-    background: yellow;
+    background-color: #0059B3;
 }
 
 .button:disabled {

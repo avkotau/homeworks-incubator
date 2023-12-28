@@ -1,17 +1,17 @@
-import React, { ChangeEvent, KeyboardEvent, useState } from 'react'
+import React, { KeyboardEvent, useState } from 'react'
 import Greeting from './Greeting'
 import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
-    users: UserType[] // need to fix any
-    addUserCallback: (name: string) => void // need to fix any
+    users: UserType[]
+    addUserCallback: (name: string) => void
 }
 
 export const pureAddUser = (name: string,
                             setError: (error: string) => void,
                             setName: (name: string) => void,
                             addUserCallback: (name: string) => void) => {
-    // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
+
     if (name.trim().length === 0) {
         setError("Ошибка! Введите имя!")
     } else {
@@ -20,13 +20,13 @@ export const pureAddUser = (name: string,
     }
 }
 
-export const pureOnBlur = (name: string, setError: (error: string) => void) => { // если имя пустое - показать ошибку
+export const pureOnBlur = (name: string, setError: (error: string) => void) => {
     if (name.trim().length === 0) {
         setError("Ошибка! Введите имя!")
     }
 }
 
-export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: (userTarger: any) => void) => { // если нажата кнопка Enter - добавить
+export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: (userTarger: any) => void) => {
 
      if (e.key === 'Enter') {
          addUser(e.currentTarget)
@@ -34,21 +34,17 @@ export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: (userTa
 
 }
 
-// более простой и понятный для новичков
-// function GreetingContainer(props: GreetingPropsType) {
 
-// более современный и удобный для про :)
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
                                                                      users,
                                                                      addUserCallback,
                                                                  }) => {
-    // деструктуризация пропсов
-    const [name, setName] = useState<string>('') // need to fix any
-    const [error, setError] = useState<string>('') // need to fix any
+    const [name, setName] = useState<string>('')
+    const [error, setError] = useState<string>('')
 
-    const setNameCallback = (e: any) => { // need to fix any
+    const setNameCallback = (e: any) => {
 
-        setName(e.currentTarget.value) // need to fix
+        setName(e.currentTarget.value)
 
         error && setError('')
     }
@@ -64,8 +60,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         pureOnEnter(e, addUser)
     }
 
-    const totalUsers = users.length // need to fix
-    const lastUserName = users[users.length-1]?.name || '' //&& users[0].name   need to fix
+    const totalUsers = users.length
+    const lastUserName = users[users.length-1]?.name || ''
 
     return (
         <Greeting
